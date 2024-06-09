@@ -22,3 +22,9 @@ no_of_people_as_int = int(no_of_people)
 
 #individual_bill = (total_bill / no_of_people) * (1 + tip / 100)
 individual_bill = (total_bill_as_float / no_of_people_as_int) * (1 + tip_as_int / 100)
+
+#rounding the individual bill to 2 decimal places
+individual_bill = round(individual_bill, 2)
+
+#print bill
+print(f"Each person should pay: ${individual_bill}")
