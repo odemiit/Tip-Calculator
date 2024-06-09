@@ -21,3 +21,4 @@ tip_as_int = int(tip)
 no_of_people_as_int = int(no_of_people)
 
 #individual_bill = (total_bill / no_of_people) * (1 + tip / 100)
+individual_bill = (total_bill_as_float / no_of_people_as_int) * (1 + tip_as_int / 100)
